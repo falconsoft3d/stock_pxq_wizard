@@ -21,18 +21,18 @@
 ##############################################################################
 
 {
-    'name': 'Actualización de Costos PxQ MFH',
+    'name': 'Update Stock PxQ MFH',
     'version': '10.0.0.1.0',
-    'author': "Falcón Solutions",
+    'author': "Falcon Solutions SpA",
     'maintainer': 'Falcon Solutions',
     'website': 'http://www.falconsolutions.cl',
     'license': 'AGPL-3',
     'category': 'Stock',
-    'summary': 'Actualización de Costos PxQ',
+    'summary': 'Update Stock PxQ MFH',
     'description': """
-Actualización de Costos PxQ MFH
+Update Stock PxQ MFH
 =============================================================
-1-. Actualización de costos de productos mediante asistente\n
+1-. Update Stock PxQ MFH\n
 """,
     'depends': ['stock_account'],
     'data': [
