@@ -38,6 +38,7 @@ Update Stock PxQ MFH
     'data': [
         'wizard/pxq_wizard_view.xml'
     ],
+    'images': ['static/description/banner.jpg'],
     'installable': True,
     'auto_install': False,
     'demo': [],
