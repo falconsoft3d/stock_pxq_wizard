@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pxq_wizard_view" model="ir.ui.view">
+        <field name="name">pxq.wizard.view</field>
+        <field name="model">pxq.wizard</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <p class="oe_grey">
+                    Seleccione los productos a los cuales actualizará el costo.
+                </p>
+                <group>
+                    <field name="product_ids" widget="many2many_tags" required="1"/>
+                </group>
+                <footer>
+                    <button name="update_standard_price" string="Actualizar Costos" type="object" class="btn-primary"/>
+                    <button string="Cancelar" class="btn-default" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="pxq_wizard_action" model="ir.actions.act_window">
+        <field name="name">Actualizar Costos PxQ</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">pxq.wizard</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="pxq_wizard_menu" sequence="5"
+        parent="stock.menu_stock_inventory_control"
+        groups="stock.group_stock_user,stock.group_stock_manager"
+        action="pxq_wizard_action"/>
+</odoo>
