@@ -1,0 +1,49 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* permission_term_permit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-19 16:49+0000\n"
+"PO-Revision-Date: 2018-07-19 13:55-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_CL\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: permission_term_permit
+#: model:ir.model.fields,field_description:permission_term_permit.field_res_users_change_payment_method
+msgid "Change the payment method"
+msgstr "Cambiar Termino de Pago"
+
+#. module: permission_term_permit
+#: model:ir.model,name:permission_term_permit.model_account_payment_term
+#: model:ir.ui.view,arch_db:permission_term_permit.res_users_tem_form_view
+msgid "Payment Term"
+msgstr "Condiciones de pago"
+
+#. module: permission_term_permit
+#: model:ir.model,name:permission_term_permit.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: permission_term_permit
+#: model:ir.model.fields,field_description:permission_term_permit.field_account_payment_term_ok_in_sale
+msgid "User in the sale Order"
+msgstr "Usuario en la orden de venta"
+
+#. module: permission_term_permit
+#: model:ir.model,name:permission_term_permit.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: permission_term_permit
+#: model:ir.model,name:permission_term_permit.model_res_users
+msgid "Change the payment method"
+msgstr "Permitir Cambiar Término de Pago"
